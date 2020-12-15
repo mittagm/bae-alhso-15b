@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home page</title>
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+ 
+    
+    <nav>
+    <div class="box">
+      <a href="a">Home</a>
+      <a href="a">Products and Services</a>
+      <a href="contactus.html">Contact us</a>
+    </div>
+    </nav>
+      <div class="column-layout">
+      <div class="main-column">
+       
+        <h2>Welcom to my Taekwondo Studio!</h2>
+        <p>
+          In this Taekwondo Studio, we will be learning how to defend ourselves when we are in danger. In Taekwondo there are three things that we can learn: Freestyle, Poomsae, and Sparring. 
+        </p>
+        <p>
+          Learning Taekwondo will be extremely useful in our daily life! Taekwondo is good for self-defense. 
+        </p>
+      
+      </div>
+
+      <div class="sidebar-one">
+        <img src="https://cdn.glitch.com/6fe82a24-8c82-44ac-bb40-a1a059b14c0f%2FTaekwondo%20Class%20Ad%20(1).jpg?v=1606885902051" alt="Simply Easy Learning" width="250"
+         height="400">
+      </div>
+
+      <div class="sidebar-two">
+        <h3>Specialty</h3>
+      <p>
+        If you are trying it for the first time, you will be able to get 3 weeks trial for free!
+        </p>
+      </div>
+    </div>
+
+    
+    
+    
+         <div class="call-outs-container">
+      <div class="call-out">
+        <h4>Special deal!</h4>
+        <p>
+         For Specials only! If you bring your whole family into Taekwondo, each person will get 25% off for all classes. 
+        <a href="b" class="btn">Learn More</a>
+        </p>
+      </div>
+
+      <div class="call-out">
+        <h4>Normal Deal</h4>
+        <p>
+         You will need to pay the full price after the 3 weeks of trial is over.
+         <a href="b" class="btn">Learn More</a> 
+        </p>
+      </div>
+    </div>    
+    
+    <div style="text-align:center;">
+      <button id="hidebutton" onclick="hideAds()">Hide Offers</button>
+    </div>
+  
+   
+    <script>
+    function hideAds() {
+    var x = document.getElementById("specialoffers");
+    var y = document.getElementById("hidebutton");
+      x.style.display = "none";
+      y.style.display = "none";
+    }
+    </script>
+    
+    
+  </body>
+</html>
